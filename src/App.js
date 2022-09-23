@@ -125,8 +125,8 @@ export class App extends Component {
           <input type='checkbox' value='dancing' onChange={this.dancingHandler} />dancing
           <button onClick={this.checkboxHandler}>Submit</button>
           <p>
-          {this.state.hobbies.map((item)=>
-          <span>{item} </span>)}
+          {this.state.hobbies.map((item,i)=>
+          <span>{item}<br /></span>)}
           </p>
         </div>
       </div>
